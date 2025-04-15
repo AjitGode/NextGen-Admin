@@ -106,13 +106,13 @@ const Login = () => {
             </button>
 
             <div className="text-center">
-            <button
-    type="button"
-    onClick={() => navigate("/forgot-password")}
-    className="text-sm text-blue-600 hover:text-blue-800 transition-colors font-medium"
-  >
-    Forgot password?
-  </button>
+              <button
+                type="button"
+                onClick={() => navigate("/forgot-password")}
+                className="text-sm text-blue-600 hover:text-blue-800 transition-colors font-medium"
+              >
+                Forgot password?
+              </button>
             </div>
           </form>
         </div>
