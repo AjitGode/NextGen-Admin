@@ -19,9 +19,9 @@ const AllCourses = ({ courses, handleEditCourse, handleDeleteCourse }) => {
               <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Description
               </th>
-              <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              {/* <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Price
-              </th>
+              </th> */}
               <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Duration
               </th>
@@ -47,9 +47,9 @@ const AllCourses = ({ courses, handleEditCourse, handleDeleteCourse }) => {
                     ? course.description.slice(0, 100) + "..."
                     : course.description}
                 </td>
-                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">
+                {/* <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">
                   {course.price}
-                </td>
+                </td> */}
                 <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">
                   {course.duration}
                 </td>
